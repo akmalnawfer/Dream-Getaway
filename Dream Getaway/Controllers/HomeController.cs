@@ -13,5 +13,10 @@ namespace Dream_Getaway.Controllers
         {
             return View();
         }
+
+        public ActionResult Tours()
+        {
+            return View();
+        }
     }
 }
