@@ -374,6 +374,10 @@
     <Content Include="Views\Home\_HomeSlider.cshtml" />
     <Content Include="Views\Home\Tours.cshtml" />
     <Content Include="Views\Home\_PageBanner.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Destination.cshtml" />
+    <Content Include="Views\Home\Hotels.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

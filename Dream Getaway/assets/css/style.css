@@ -205,7 +205,7 @@ html, body{height: 100%;width: 100%;}
     display: inline;position: relative;
 }
 .mainmenu a {
-    color: #484848;
+    color: #fff;
     font-weight: 700;
     padding: 14px;
     display: inline-block;-webkit-transition: .3s;transition: .3s;
@@ -295,19 +295,21 @@ html, body{height: 100%;width: 100%;}
     padding: 15px 0;
 }
 .sticky-header-class {
-	background: #444444;
+	background: #fff;
 	-webkit-transition: .3s;
 	transition: .3s;
 	position: fixed;top: 0;z-index: 9999;width: 100%;
+    -moz-box-shadow: 0px 1px 20px #888888;
+    -webkit-box-shadow: 0px 1px 20px #888888;
+    box-shadow: 0px 1px 20px #888888;
 }
 .header-area.sticky-header-class a {
-  color: #fff;
+    color: #d8085f;
 }
 .header-area.sticky-header-class .header-right a:last-child:before {
   background: #fff;
 }
 .header-area.sticky-header-class a:hover {
-  opacity: .7;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .header-area.sticky-header-class .mainmenu ul li ul li a:hover {
@@ -1045,7 +1047,7 @@ html, body{height: 100%;width: 100%;}
 .f-box-image-5{background-image: url(../img/hp2-footer-image-right-5.jpg);}
 .f-box-image-6{background-image: url(../img/hp2-footer-image-right-6.jpg);}
 /*Team Details page CSS */
-.page-title-area{height: 450px;position: relative;background-image: url(../img/page-title-bg.jpg);background-size: cover;background-position: center;padding-top: 30px;}
+.page-title-area{height: 450px;position: relative;background-size: cover;background-position: center;padding-top: 30px;}
 
 .page-title-inner {
   display: table;
@@ -3252,10 +3254,10 @@ border: none;border-bottom:1px solid #F6F6F6;height: 100px;}
 /*All hover CSS */
 a,.pink-btn,.mainmenu ul li a,.header-right a,.slider-bottom-menu ul li a,.single-sea-tours-text a,.footer-widget ul li,.social-links-icon a,.welcome-area.hp2-welcome-area .header-area a,.welcome-area.hp2-welcome-area .header-area .mainmenu ul li ul li a,.hp2-form-single-button button[type="submit"],.holiday-packages-item-text ul li a,.holiday-packages-item-text ul li a,.mfp-iframe.world-out-video-btn,.hp2-testimonial-carousel .owl-nav div,.hp3-testimonial-carousel .owl-nav div,.best-tour-packages-carousel-hp3 .owl-nav div,.footer-area.hp2-footer-area .social-links-icon a,.footer-area.hp2-footer-area a.single-f-destination-box,.footer-area.hp3-footer-area .social-links-icon a,.footer-area.hp3-footer-area a.single-f-destination-box,.header-top-area.header-top-area-hp3 a,.header-area.header-area-hp3 .mainmenu ul li a,.destination-honeymoon-carousel.owl-carousel .owl-nav .owl-next, .destination-honeymoon-carousel.owl-carousel .owl-nav .owl-prev,.slider-bottom-gallery-hp1 .owl-nav div, .hp1-top-destination-carousel .owl-nav div, .sea-tours-carousel-hp1-columns .owl-nav div {-webkit-transition: .3s;transition: .3s}
 
-.pink-btn:hover,.hp2-form-single-button button[type="submit"]:hover,.subscribe-mail-form button.pink-btn:hover,.car-list-submit button.pink-btn:hover,.leave-a-comment-form button:hover,.blog-tags a:hover,.blog-details-tag-line a:hover,.login-form-div .login-via-btn:hover, .login-form-div button:hover {background: #484848;}
+.pink-btn:hover,.hp2-form-single-button button[type="submit"]:hover,.subscribe-mail-form button.pink-btn:hover,.car-list-submit button.pink-btn:hover,.leave-a-comment-form button:hover,.blog-tags a:hover,.blog-details-tag-line a:hover,.login-form-div .login-via-btn:hover, .login-form-div button:hover {background: #fff;}
 
 .mainmenu ul li a:hover,.header-right a:hover,.social-links-icon a:hover,.welcome-area.hp2-welcome-area .header-area .mainmenu ul li ul li a:hover,.header-area.header-area-hp3 .mainmenu ul li ul li a:hover,.pink-btn:hover,.header-area.header-absolute.page-header-style .mainmenu ul li ul li a:hover,.cart-checkout:hover,.contact-info-box:hover i.zmdi,.update-cart-btn.pink-btn:hover,.blog-tags a:hover,.login-form-div .login-via-btn:hover, .login-form-div button:hover,.blog-details-tag-line a:hover {
-  color: #fff;
+  color: #797272;
 }
 .slider-bottom-menu ul li a:hover {
   border-bottom: 1px solid #d82460;

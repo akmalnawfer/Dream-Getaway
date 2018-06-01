@@ -42,6 +42,10 @@ namespace Dream_Getaway
                       "~/assets/css/style.css",
                       "~/assets/css/responsive.css"
                       ));
+
+            bundles.Add(new ScriptBundle("~/bundles/mapScript").Include(
+                "~/assets/js/map.js"
+                ));
         }
     }
 }
