@@ -12,11 +12,9 @@ namespace Dream_Getaway.Entities
     {
         [Key]
         public int PackageId { get; set; }
-        [Required]
         public string PackageTitle { get; set; }
-        public int? NumberOfDays { get; set; }
+        public int NumberOfDays { get; set; }
         public float PackagePrice { get; set; }
-
         public Categories Categories { get; set; }
         public int CategoryId { get; set; }
     }
