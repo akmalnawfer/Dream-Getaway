@@ -10,47 +10,11 @@
     @Html.Partial("_PageBanner")
 }
 <div class="car-list-page-content-area padding-bottom  hotel-list-page-content-area">
-<div class="car-list-top-form padding-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="car-list-top-form-inner">
-                    <form action="https://formspree.io/rabukushia@gmail.com" method="POST">
-                        <div class="hp2-form-single-div hp2-form-single-destination">
-                            <h6>Find your hotel</h6>
-                            <input type="text" name="find-hotel" placeholder="Find hotel">
-                        </div>
-                        <div class="hp2-form-single-div hp2-form-single-adventure">
-                            <h6>Where?</h6>
-                            <select name="flight-form-select" id="flight-form-select">
-                                <option value="1">Choose location</option>
-                                <option value="2">All Categories</option>
-                                <option value="3">All Categories</option>
-                                <option value="4">All Categories</option>
-                                <option value="5">All Categories</option>
-                            </select>
-                        </div>
-                        <div class="hp2-form-single-div hp2-form-single-counter1">
-                            <h6>Adult:</h6>
-                            <input type="number" name="number" value="1">
-                        </div>
-                        <div class="hp2-form-single-div hp2-form-single-counter2">
-                            <h6>Child:</h6>
-                            <input type="number" name="number" value="1">
-                        </div>
-                        <div class="hp2-form-single-div  hp2-form-single-button">
-                            <button type="submit" class="pink-btn">Find Hotel</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<div class="padding-bottom"></div>
 <div class="car-lists-area">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <div class="car-list-boxes">
                     <div class="row">
                         <div class="col-sm-6">
@@ -209,111 +173,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="car-list-sidebar">
-                    <div class="car-list-single-sidebar padding-bottom">
-                        <h4>Star rating</h4>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="checkbox-one">
-                            <label for="checkbox-one">
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <span>08</span>
-                            </label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="checkbox-one2">
-                            <label for="checkbox-one2">
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <span>08</span>
-                            </label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="checkbox-one3">
-                            <label for="checkbox-one3">
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <span>08</span>
-                            </label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="checkbox-one4">
-                            <label for="checkbox-one4">
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <span>08</span>
-                            </label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="checkbox-one5">
-                            <label for="checkbox-one5">
-                                <i class="zmdi zmdi-star-outline"></i>
-                                <span>08</span>
-                            </label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="checkbox-one6">
-                            <label for="checkbox-one6">
-                                No rated
-                                <span>08</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="car-list-single-sidebar padding-bottom">
-                        <h4>Categories</h4>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="category-one">
-                            <label for="category-one">Hotels <span>14</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="category-two">
-                            <label for="category-two">Bungalow <span>06</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="category-three">
-                            <label for="category-three">Hotel <span>07</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="category-four">
-                            <label for="category-four">Hotel <span>08</span></label>
-                        </div>
-                    </div>
-                    <div class="car-list-single-sidebar">
-                        <h4>Facility</h4>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="facility-one">
-                            <label for="facility-one">Pet allowed <span>14</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="facility-two">
-                            <label for="facility-two">Access for disabled <span>06</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="facility-three">
-                            <label for="facility-three">Groups allowed <span>07</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="facility-four">
-                            <label for="facility-four">Pet allowed <span>08</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="facility-five">
-                            <label for="facility-five">Tour guides <span>08</span></label>
-                        </div>
-                        <div class="single-input-row">
-                            <input type="checkbox" id="facility-six">
-                            <label for="facility-six">Car service <span>08</span></label>
                         </div>
                     </div>
                 </div>
