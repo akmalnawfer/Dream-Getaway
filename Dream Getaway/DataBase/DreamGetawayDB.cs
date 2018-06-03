@@ -13,7 +13,8 @@ namespace Dream_Getaway.DataBase
         { }
 
         public DbSet<Categories> Categories { get; set; }
-
         public DbSet<Packages> Packages { get; set; }
+        public DbSet<Details> Details { get; set; }
+
     }
 }
