@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dream_Getaway.Entities;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -10,5 +11,9 @@ namespace Dream_Getaway.DataBase
     {
         public DreamGetawayDB() : base("dgcontext")
         { }
+
+        public DbSet<Categories> Categories { get; set; }
+
+        public DbSet<Packages> Packages { get; set; }
     }
 }
